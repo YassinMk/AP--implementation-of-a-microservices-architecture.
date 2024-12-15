@@ -106,9 +106,6 @@ Application frontend pour interagir avec les services et afficher les factures.
 ## Prérequis
 - **Java 17** ou une version supérieure.
 - **Maven** pour construire le projet.
-- **Node.js** et **Angular CLI** pour le frontend.
-- **Docker** (optionnel pour un déploiement conteneurisé).
-
 
 ## Auteur
 [YassinMk](https://github.com/YassinMk)
