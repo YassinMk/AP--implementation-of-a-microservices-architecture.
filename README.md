@@ -8,7 +8,7 @@ Ce dépôt contient l'implémentation d'une architecture microservices avec diff
 L'architecture comprend les composants suivants :
 - **Customer Service** : Gère les opérations liées aux clients.
 - **Inventory Service** : Gère l'inventaire des produits.
-- **Billing Service** : Gère la facturation.
+- **Order Service** : Gère la facturation.
 - **Spring Cloud Gateway** : Sert de passerelle API pour router les requêtes.
 - **Eureka Registry Service** : Fournit la découverte des services pour les microservices.
 
@@ -25,7 +25,7 @@ Le dépôt est structuré comme suit :
 |-- customer-service
 |   |-- src
 |   |-- pom.xml
-|-- inventory-service
+|-- order-service
 |   |-- src
 |   |-- pom.xml
 |-- billing-service
@@ -71,7 +71,7 @@ Ce service gère les informations relatives aux clients.
 
 ---
 
-### 3. Billing Service
+### 3. Order Service
 Ce service gère la facturation et la communication avec les services Customer et Inventory à l'aide d'OpenFeign.
 
 #### Fonctionnalités clés
